@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
             <input
               type="text"
               onChange={this.onInputChange}
-              value={this.state.term}
+              value={this.state.term} 
             />
           </div>
         </form>
